@@ -1,12 +1,13 @@
 {
-  "name": "my-v0-project",
+  "name": "Job-Fraud-Detection-Model",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "pip3 install pandas numpy scikit-learn matplotlib seaborn imbalanced-learn nltk tqdm scikit-optimize && python3 scripts/download_nltk_data.py"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
