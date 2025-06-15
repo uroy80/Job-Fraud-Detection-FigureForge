@@ -6,7 +6,7 @@ A machine learning-powered system to detect fraudulent job postings and protect 
 
 1. [GitHub Repository](https://github.com/uroy80/Job-Fraud-Detection-FigureForge)  
 2. [YouTube Demo Video](https://youtu.be/5Xf8zYNPw88)  
-3. [Application Website](https://206.189.137.181:3000)
+3. [Application Website](http://206.189.137.181:3000/)
 
 ---
 
