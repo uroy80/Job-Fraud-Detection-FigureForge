@@ -235,38 +235,6 @@ title,description,location,company,salary_range
 
 ---
 
-## 🚀 Deployment
-
-### Railway
-```bash
-npm install -g @railway/cli
-railway login
-railway init
-railway up
-```
-
-### Vercel
-```bash
-npm install -g vercel
-vercel --prod
-```
-
-### Docker
-```dockerfile
-FROM node:18-alpine
-RUN apk add --no-cache python3 py3-pip
-COPY package*.json ./
-RUN npm install
-COPY requirements.txt ./
-RUN pip install -r requirements.txt
-COPY . .
-RUN npm run build
-EXPOSE 3000
-CMD ["npm", "start"]
-```
-
----
-
 ## 👤 Team
 
 ### 👨‍💻 Usham Roy - Lead Developer & ML Engineer
@@ -302,7 +270,7 @@ MIT License
 ---
 
 ## 📞 Contact & Support
-- Email: support@jobfrauddetection.com
+- Email: ushamroy80@gmail.com
 - [GitHub Issues](https://github.com/your-username/job-fraud-detection/issues)
 - [GitHub Discussions](https://github.com/your-username/job-fraud-detection/discussions)
 
