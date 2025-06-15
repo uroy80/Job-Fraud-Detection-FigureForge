@@ -240,16 +240,11 @@ title,description,location,company,salary_range
 ### 👨‍💻 Usham Roy - Lead Developer & ML Engineer
 - Full-stack dev, ML architecture
 - Python, Data Science
+- CI/CD Automations
 
 ### 👩‍💻 Anwesha Roy - Frontend Developer & UI/UX Designer
 - React, TypeScript, UI Design
 
----
-
-## 🏆 Hackathon Submission
-- Event: Anveshan Hackathon 2025
-- Category: Data Science & ML
-- Team: ML Innovators
 
 ---
 
@@ -262,7 +257,7 @@ MIT License
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 - Anveshan Hackathon team
 - scikit-learn, Next.js
 - Open source contributors
