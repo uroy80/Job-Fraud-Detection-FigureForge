@@ -266,8 +266,8 @@ MIT License
 
 ## 📞 Contact & Support
 - Email: ushamroy80@gmail.com
-- [GitHub Issues](https://github.com/your-username/job-fraud-detection/issues)
-- [GitHub Discussions](https://github.com/your-username/job-fraud-detection/discussions)
+- [GitHub Issues](https://github.com/uroy80/Job-Fraud-Detection-FigureForge/issues)
+- [GitHub Discussions](https://github.com/uroy80/Job-Fraud-Detection-FigureForge/discussions)
 
 ---
 
