@@ -80,7 +80,7 @@ def preprocess_job_data(df):
 **Location Features:**
 - Remote work indicators
 - Location specificity
-- Address validation
+- Address validation.
 
 ### 3. Model Architecture
 ```python
