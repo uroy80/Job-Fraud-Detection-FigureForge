@@ -1,0 +1,34 @@
+name: Preprocess NLTK Data and Commit
+
+on:
+  workflow_dispatch:  # Run manually from GitHub Actions tab
+
+jobs:
+  nltk-preprocess:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v3
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: 📦 Install Python dependencies
+        run: |
+          pip install pandas numpy scikit-learn matplotlib seaborn imbalanced-learn nltk tqdm scikit-optimize
+
+      - name: ⚙️ Run NLTK download script
+        run: |
+          mkdir -p nltk_data
+          python scripts/download_nltk_data.py
+
+      - name: 📝 Commit nltk_data to GitHub
+        run: |
+          git config --global user.name "uroy80 (bot)"
+          git config --global user.email "uroy80@users.noreply.github.com"
+          git add nltk_data
+          git commit -m "Auto: Added nltk_data folder from GitHub Action" || echo "No changes to commit"
+          git push
